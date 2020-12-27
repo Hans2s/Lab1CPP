@@ -5,12 +5,11 @@
 /// </summary>
 public class Class1
 {
-	public Class1()
+	static void Main(string[] args)
 	{
-		//writing the variables 
 
-		int x;
-		int y;
+
+		//writing the variables 
 		int a = 1.234;
 		int b = 0.756;
 		int c = 2.23;
@@ -31,13 +30,11 @@ public class Class1
 		int y = pow(h, d);
 
 
-
 		Console.WriteLine(y);
 
 	}
 
 
-	
 
 }
 
