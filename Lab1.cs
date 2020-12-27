@@ -18,10 +18,17 @@ public class Class1
 
 		//added a b c d 
 		// for sin a = x
-		// for 2 sin a = 2 sin x = e
 		// for square root of c  = f
 		// for b x f = g
-		// e + cos g = h
+		// *** bxf should be absolute ***
+		// 2.x + cos g = h
 		// then h to the power of d  = y
 	}
+	int x = math.sin(a);
+	int f = math.sqrt(c);
+	int g = Abs(b * f);
+	int h = 2 * x + math.cos(g);
+	int y = pow(h, d);
+	
+
 }
