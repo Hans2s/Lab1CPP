@@ -11,10 +11,10 @@ public class Class1
 
 		int x;
 		int y;
-		int a;
-		int b;
-		int c;
-		int d;
+		int a = 1.234;
+		int b = 0.756;
+		int c = 2.23;
+		int d = -1.653;
 
 		//added a b c d 
 		// for sin a = x
